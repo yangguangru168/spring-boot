@@ -16,6 +16,6 @@ public class LoggerTest {
         Integer password = 123456;
         log.info("name:{},password: {}",name,password);
         log.info("姓名"+name+"密码:"+password);
-        log.error("error错误我");
+        log.error("error错误我"); 
     }
 }
